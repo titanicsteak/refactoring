@@ -48,6 +48,10 @@ public class StatementPrinter {
         return totalAmount;
     }
 
+    private void getAmount() {
+
+    }
+
     private int getTotalVolumeCredits() {
         int volumeCredits = 0;
         for (Performance p : invoice.getPerformances()) {
